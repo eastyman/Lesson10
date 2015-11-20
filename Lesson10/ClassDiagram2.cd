@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Lesson10.Hunter">
+    <Position X="2.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Hunter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lesson10.Rabbit">
+    <Position X="7.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>Rabbit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Delegate Name="Lesson10.RabbitMove">
+    <Position X="4.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAAAA=</HashCode>
+      <FileName>RabbitMove.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
