@@ -7,6 +7,7 @@ namespace Lesson10
 {
     public class Rabbit
     {
+        //событие типа делегата
         public event RabbitMove RabbitMoved;
        // private int x;
        // private int y;
@@ -20,10 +21,9 @@ namespace Lesson10
             X = r.Next();
             Y = r.Next();
 
+            //событие вызывается со случайными параметрами - сигнатура определена делегатом
             RabbitMoved.Invoke(X, Y);
-
-
-            
+ 
         }
     }
 }

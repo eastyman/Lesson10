@@ -5,5 +5,6 @@ using System.Text;
 
 namespace Lesson10
 {
+    //делегат для события у зайца (и охотника)
     public delegate void RabbitMove(int x, int y);
 }

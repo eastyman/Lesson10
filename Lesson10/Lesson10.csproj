@@ -41,19 +41,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Hunter.cs" />
-    <Compile Include="Ping.cs" />
-    <Compile Include="PingPong.cs" />
-    <Compile Include="Pong.cs" />
+    <Compile Include="RabbitHunter\Hunter.cs" />
+    <Compile Include="PingPong\Ping.cs" />
+    <Compile Include="PingPong\PingPong.cs" />
+    <Compile Include="PingPong\Pong.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Rabbit.cs" />
-    <Compile Include="RabbitMove.cs" />
+    <Compile Include="RabbitHunter\Rabbit.cs" />
+    <Compile Include="RabbitHunter\RabbitMove.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ClassDiagram1.cd" />
-    <None Include="ClassDiagram2.cd" />
+    <None Include="PingPong\ClassDiagram1.cd" />
+    <None Include="RabbitHunter\ClassDiagram2.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
